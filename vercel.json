@@ -1,0 +1,14 @@
+{
+  "version": 3,
+    "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "http://moristweb.mywire.org:3000/api/$1"
+    },
+    {
+      "source": "/storage/(.*)",
+      "destination": "http://moristweb.mywire.org:3000/storage/$1"
+    },
+        {"source": "/(.*)", "destination": "/"}
+    ]
+}
