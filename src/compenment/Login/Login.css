@@ -1,0 +1,4 @@
+.no-pointer {
+    pointer-events: none;
+    cursor: default;
+}
